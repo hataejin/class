@@ -6,7 +6,8 @@ public class MenuManager {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int num = 5;
-		while(num!=6) {
+		while(num==5) {
+		System.out.println("***Menu***");
 		System.out.println("1. Add Student");
 		System.out.println("2. Delete Student");
 		System.out.println("3. Edit Student");
@@ -27,8 +28,13 @@ public class MenuManager {
 		else if(num == 4) {
 			viewstudent();
 			}
+		else {
+			System.out.println("Thank you for watching!");
+		}
+		
 		}
 }
+
 
 
 	public static void addstudent() {
@@ -43,18 +49,22 @@ public class MenuManager {
 		System.out.println(studentaddress);
 		System.out.print("Phone number :");
 		String phone = input.next();
+		System.out.println("Add student complete!");
 	}
 	public static void deletestudent() {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Student ID :");
 		int studentId = input.nextInt();
+		System.out.println("Student ID is successfully deleted!");
 	}
 		 
 	public static void editstudent() {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Student ID :");
 		int studentId = input.nextInt();
-		
+		System.out.print("edit student id :");
+		int studentid = input.nextInt();
+		System.out.println("edit complete! :");
 	} 
 	public static void viewstudent() {
 		Scanner input = new Scanner(System.in);
