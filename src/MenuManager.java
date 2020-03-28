@@ -5,8 +5,8 @@ public class MenuManager {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		int num = 5;
-		while(num==5) {
+		int num = 0 ;
+		while(num<=6) {
 		System.out.println("***Menu***");
 		System.out.println("1. Add Student");
 		System.out.println("2. Delete Student");
@@ -16,10 +16,10 @@ public class MenuManager {
 		System.out.println("6. Exit");
 		System.out.println("Select 1~6");
 		num = input.nextInt();
-		if(num == 1) {
+		if(num==1) {
 			addstudent();
-			}
-		else if(num == 2) {
+		}
+		if(num == 2) {
 			deletestudent();
 			}
 		else if(num == 3) {
@@ -28,12 +28,12 @@ public class MenuManager {
 		else if(num == 4) {
 			viewstudent();
 			}
-		else {
+		else if(num==6) {
 			System.out.println("Thank you for watching!");
 		}
-		
-		}
+		}	
 }
+
 
 
 
