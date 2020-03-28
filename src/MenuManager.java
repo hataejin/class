@@ -30,6 +30,7 @@ public class MenuManager {
 			}
 		else if(num==6) {
 			System.out.println("Thank you for watching!");
+			break;
 		}
 		}	
 }
