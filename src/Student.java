@@ -19,7 +19,7 @@ public class Student {
 	}
 	
 	public void printInfo() {
-		System.out.println("name:" +name +"id:"+id+"email:"+email+"phone:"+phone);
+		System.out.println("name: " +name +" id: "+id+" email: "+email+" phone: "+phone);
 	}
 
 }
