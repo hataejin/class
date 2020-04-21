@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Addstudent {
+public class Addstudent extends Student {
 	Student add;
 	Scanner input;
 	
